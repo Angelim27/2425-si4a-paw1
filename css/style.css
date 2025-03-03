@@ -1,0 +1,63 @@
+* {
+
+}
+
+
+
+/* element selector*/
+body{
+    background-color: #FBF8EF;
+    font-family: 'Times New Roman';
+  }
+
+  p {
+    color: brown;
+
+  }
+  h1, h2, h3 {
+    color: rebeccapurple;
+  }
+
+  /* class selector*/
+  .bg-warning{
+    background-color: palevioletred;
+  }
+
+  .text-success{
+    color: powderblue;
+  }
+
+  /*id selector*/
+  #h5{
+    color: skyblue;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover{
+    color: aquamarine;
+  }
+
+  .rounded{
+    border-radius: 20px;
+  }
+  /* FORM */
+  input[type="text"], input[type="date"], textarea, select {
+    width: 100%;
+    border-radius: 10px; /* sudut border */
+    padding: 5px; /* sisi dalam border */
+    border: 2px  dashed salmon; /* bisa 3 jenis : solid, dashed, dan dotted */
+    /* margin : 20px; sisi luar border */
+}
+
+  button{
+    width: 100%;
+    border-radius: 10px; /* mengatur sudut tombol */
+    padding: 5px; /* mengatur kelebaran tombol */
+    border: 1px solid salmon; /* mengatur ketebalan garis tombol */
+    background-color: gold; /* mengatur warna tombol */
+    color: black; /* mengatur warna tulisan tombol */
+  }
