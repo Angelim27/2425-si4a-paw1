@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--inline-->
+    <button onclick="alert('Selamat Siang')"> Salam </button>
+    <button id="btn"> Belajar JS </button>
+    <p id="nama"></p>
+    <p id="umur"></p>
+    <ul id="mahasiswa"> </ul>
+
+    <table> 
+        <thead> <tr> <th> Nama </th> <th> Nilai </th></tr></thead>
+        <tbody id="Nilai"></tbody>
+    </table>
+    <ul id="quotes"></ul>
+
+    <div class="row"> 
+        <div class="col-lg-3 col - sm - 6">
+
+    <!--internal-->
+    <script> 
+        const btn = document.getElementById('btn');
+        btn.onclick = function(){
+            alert('Selamat Belajar Javascript')
+        }
+    </script>
+    <!--eksternal-->
+    <script src="script.js"></script>
+</body>
+</html>
